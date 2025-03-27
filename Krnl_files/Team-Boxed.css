@@ -1,0 +1,112 @@
+.team-boxed {
+  color: #313437;
+  background-color: #eef4f7;
+}
+
+.team-boxed p {
+  color: #7d8285;
+}
+
+.team-boxed h2 {
+  font-weight: bold;
+  margin-bottom: 40px;
+  padding-top: 40px;
+  color: inherit;
+}
+
+@media (max-width:767px) {
+  .team-boxed h2 {
+    margin-bottom: 25px;
+    padding-top: 25px;
+    font-size: 24px;
+  }
+}
+
+.team-boxed .intro {
+  font-size: 16px;
+  max-width: 500px;
+  margin: 0 auto;
+}
+
+.team-boxed .intro p {
+  margin-bottom: 0;
+}
+
+.team-boxed .people {
+  padding: 50px 0;
+}
+
+.team-boxed .item {
+  text-align: center;
+}
+
+.team-boxed .item .box {
+  text-align: center;
+  padding: 30px;
+  background-color: #fff;
+  margin-bottom: 30px;
+}
+
+.team-boxed .item .name {
+  font-weight: bold;
+  margin-top: 28px;
+  margin-bottom: 8px;
+  color: inherit;
+}
+
+.team-boxed .item .title {
+  text-transform: uppercase;
+  font-weight: bold;
+  color: #d0d0d0;
+  letter-spacing: 2px;
+  font-size: 13px;
+}
+
+.team-boxed .item .description {
+  font-size: 15px;
+  margin-top: 15px;
+  margin-bottom: 20px;
+}
+
+.team-boxed .item img {
+  max-width: 160px;
+}
+
+.team-boxed .social {
+  font-size: 18px;
+  color: #a2a8ae;
+}
+
+.team-boxed .social a {
+  color: inherit;
+  margin: 0 10px;
+  display: inline-block;
+  opacity: 0.7;
+}
+
+.team-boxed .social a:hover {
+  opacity: 1;
+}
+
+
+/*
+     FILE ARCHIVED ON 18:11:07 Jun 24, 2022 AND RETRIEVED FROM THE
+     INTERNET ARCHIVE ON 09:45:20 Jun 19, 2024.
+     JAVASCRIPT APPENDED BY WAYBACK MACHINE, COPYRIGHT INTERNET ARCHIVE.
+
+     ALL OTHER CONTENT MAY ALSO BE PROTECTED BY COPYRIGHT (17 U.S.C.
+     SECTION 108(a)(3)).
+*/
+/*
+playback timings (ms):
+  captures_list: 0.738
+  exclusion.robots: 0.071
+  exclusion.robots.policy: 0.061
+  esindex: 0.01
+  cdx.remote: 12.334
+  LoadShardBlock: 246.61 (3)
+  PetaboxLoader3.datanode: 519.398 (6)
+  PetaboxLoader3.resolve: 269.693 (4)
+  load_resource: 817.81 (2)
+  loaddict: 186.534
+*/
