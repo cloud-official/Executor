@@ -1,76 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Executor Launch</title>
+    <style>
+        @keyframes fadeIn {
+            from { opacity: 0; }
+            to { opacity: 1; }
+        }
 
+        @keyframes slideUp {
+            from { transform: translateY(20px); opacity: 0; }
+            to { transform: translateY(0); opacity: 1; }
+        }
 
-      
-      <meta name="viewport" content="width=device-width, initial-scale=1">
-      <title>Krnl</title>
+        @keyframes rotate {
+            from { transform: rotate(0deg); }
+            to { transform: rotate(360deg); }
+        }
 
-      <link href=".https://github.com/EndersMH/KrnlReborn/blob/main/Krnl_files/css-style.css" rel="stylesheet" type="text/css">
-      <link href=".https://github.com/EndersMH/KrnlReborn/blob/main/Krnl_files/mainpage.css" rel="stylesheet" type="text/css">
-      <link href=".https://github.com/EndersMH/KrnlReborn/blob/main/Krnl_files/Team-Boxed.css" rel="stylesheet" type="text/css">
-      <link href=".https://github.com/EndersMH/KrnlReborn/blob/main/Krnl_files/krnl-components.css" rel="stylesheet" type="text/css">
-      <link rel="icon" href=".https://github.com/EndersMH/KrnlReborn/blob/main/Krnl_files/krnlmain.png" type="image/icon type">
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #f4f4f4;
+            margin: 0;
+            padding: 0;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+            flex-direction: column;
+            animation: fadeIn 1s ease;
+        }
 
-      <script>
+        .container {
+            text-align: center;
+            background-color: #fff;
+            padding: 20px;
+            border-radius: 20px;
+            box-shadow: 0 0 20px rgba(0, 0, 0, 0.1);
+            animation: slideUp 1s ease;
+        }
 
-      </script>
-   
- 
-      <header class="mainheader">
-         <div class=exe>
-         <div class="maincontainer exe">
-            <div class="logonrefs">
-               <img src="./Krnl_files/krnlmain.png" alt="" class="kernellogo">
-            </div>
-         </div>
-         <div class="maincontainer">
-            <div class="submaincontainer">
-               <h1 class="title exe">Krnl</h1>
-               <p class="description" style="width: 50%;">Krnl is a scripting utility with an intuitive graphical interface to help you quickly write and execute scripts.</p>
-                <div class="downloadcontainer">
-                    <div>
-                        <a href="download.html"><button>Download</button></a>
-                    </div>
-                </div>
-            </div>
-         </div>
-      </div>
-      </header>
-      <section class="fatfuck mainbody" style="height: 250px;">
-         <div style="margin-top: 50px;" align="center">
-            <h2>Features</h2>
-         </div>
-         <div class="row">
-            <div class="desccard desccard-spacer">
-               <h3>Stable</h3>
-               <p class="featuresdesc">By applying a variety of technology, Krnl provides a seamless user experience.</p>
-            </div>
-            <div class="desccard desccard-spacer">
-               <h3>Performant</h3>
-               <p class="featuresdesc">Responsive execution times are achieved through the implementation of LuaU.</p>
-            </div>
-            <div class="desccard">
-               <h3>Reliable</h3>
-               <p class="featuresdesc">With exceptional update times, Krnl boasts near perfect uptime.</p>
-            </div>
-         </div>
+        .logo {
+            max-width: 200px;
+            margin-bottom: 20px;
+            animation: rotate 2s infinite linear;
+        }
 
-         <div style="margin-top: 60px;" align="center">
-         </div>
-         <div class="row">
-	</div>
-            <h2>			Credits</h2>
-	<!-- EnderMH -->
-         <div class="desccard creditscard-spacer creditscard">
-            <div class="flexbox">
-               <img class="creditsimg" src="./Krnl_files/ender.png" alt="">
-               <div>
-                  <h3 class="creditsname">EnderMH</h3>
-                  <p class="creditsstatus">Done Everything</p>                         
-                  </div>
-               </div>
-            </div>
-            
-	
-	
+        .title {
+            font-size: 2em;
+            margin-bottom: 10px;
+            animation: fadeIn 2s ease;
+        }
 
-</body></html>
+        .description {
+            font-size: 1.2em;
+            margin-bottom: 20px;
+            color: #333;
+            animation: fadeIn 3s ease;
+        }
+
+        .footer {
+            margin-top: 20px;
+            font-size: 0.9em;
+            color: #777;
+            animation: fadeIn 4s ease;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <img src="path_to_logo.png" alt="Executor Logo" class="logo">
+        <div class="title">Welcome to Executor!</div>
+        <div class="description">Experience the power and efficiency of Executor, the best solution for your needs. Our tool is designed to make your life easier and more productive.</div>
+        <div class="footer">Brought to you by the amazing team at Cloud Official</div>
+    </div>
+</body>
+</html>
